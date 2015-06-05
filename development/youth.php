@@ -12,8 +12,8 @@ require_once "includes/header.inc.php";
 		</p>
 
 		<div class="thirty-sixty-container">
-			<img src="http://lorempixel.com/220/220/" alt="Placeholder image" class="full-img">
-			<img src="http://lorempixel.com/460/230/" alt="Placeholder image" class="full-img">
+			<img src="http://lorempixel.com/220/220/abstract" alt="Placeholder image" class="full-img">
+			<img src="http://lorempixel.com/460/230/abstract" alt="Placeholder image" class="full-img">
 
 		</div>
 	</section>

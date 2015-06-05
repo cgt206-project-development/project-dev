@@ -9,19 +9,19 @@ require_once "includes/header.inc.php";
 
 	<div class="three-pic-row">
 		<figure>
-			<img src="http://lorempixel.com/160/230/" alt="Placeholder image" class="full-img">
+			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
 			<figcation>
 				Officer Name/Title
 			</figcation>
 		</figure>
 		<figure>
-			<img src="http://lorempixel.com/160/230/" alt="Placeholder image" class="full-img">
+			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
 			<figcation>
 				Officer Name/Title
 			</figcation>
 		</figure>
 		<figure>
-			<img src="http://lorempixel.com/160/230/" alt="Placeholder image" class="full-img">
+			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
 			<figcation>
 				Officer Name/Title
 			</figcation>
@@ -31,25 +31,25 @@ require_once "includes/header.inc.php";
 
 	<div class="four-pic-row">
 		<figure>
-			<img src="http://lorempixel.com/160/230/" alt="Placeholder image" class="full-img">
+			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
 			<figcation>
 				Officer Name/Title
 			</figcation>
 		</figure>
 		<figure>
-			<img src="http://lorempixel.com/160/230/" alt="Placeholder image" class="full-img">
+			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
 			<figcation>
 				Officer Name/Title
 			</figcation>
 		</figure>
 		<figure>
-			<img src="http://lorempixel.com/160/230/" alt="Placeholder image" class="full-img">
+			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
 			<figcation>
 				Officer Name/Title
 			</figcation>
 		</figure>
 		<figure>
-			<img src="http://lorempixel.com/160/230/" alt="Placeholder image" class="full-img">
+			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
 			<figcation>
 				Officer Name/Title
 			</figcation>

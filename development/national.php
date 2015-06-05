@@ -13,11 +13,11 @@ require_once "includes/header.inc.php";
 			</p>
 
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta, molestias culpa eveniet temporibus voluptatum quod non ipsa nulla dolorem cum, id, dignissimos aliquam nostrum est repellendus fugiat consequatur. 
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta, molestias culpa eveniet temporibus voluptatum quod non ipsa nulla dolorem cum, id, dignissimos aliquam nostrum est repellendus fugiat consequatur.
 			</p>
 		</section>
 
-		<img src="http://lorempixel.com/260/180/" alt="Placeholder image" class="full-img">
+		<img src="http://lorempixel.com/260/180/abstract" alt="Placeholder image" class="full-img">
 	</div>
 
 	<div class="fifty-fifty-container">
@@ -35,7 +35,7 @@ require_once "includes/header.inc.php";
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quas excepturi ipsam aliquam ad, repellat accusamus provident consequuntur dolor labore ipsum accusantium. Perspiciatis adipisci sint repellendus! Autem eum nesciunt iste!
 			</p>
 		</section>
-		<img src="http://lorempixel.com/260/180/" alt="Placeholder image" class="full-img">
-		<img src="http://lorempixel.com/260/180/" alt="Placeholder image" class="full-img">
+		<img src="http://lorempixel.com/260/180/abstract" alt="Placeholder image" class="full-img">
+		<img src="http://lorempixel.com/260/180/abstract" alt="Placeholder image" class="full-img">
 	</div>
  <?php require_once "includes/footer.inc.php"; ?>
