@@ -128,7 +128,9 @@ header {
     clear: both; }
     .content .three-col-container section {
       float: left;
-      width: 33%; }
+      width: 30%; }
+      .content .three-col-container section img {
+        max-width: 100%; }
     @media (max-width: 650px) {
       .content .three-col-container section {
         width: 100%; }
@@ -139,9 +141,7 @@ header {
   .content .thirty-sixty-container section:first-of-type {
     width: 33%; }
   .content .thirty-sixty-container section:last-of-type {
-    width: 64%;
-    background: #790000;
-    height: 14em; }
+    width: 64%; }
   @media (max-width: 650px) {
     .content .thirty-sixty-container section:first-of-type, .content .thirty-sixty-container section:last-of-type {
       width: 100%; } }
