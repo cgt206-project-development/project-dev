@@ -100,6 +100,12 @@ header {
     color: #3b5998; }
   .social .fa-twitter-square {
     color: #55acee; }
+  .social .fa-facebook-square, .social .fa-twitter-square {
+    transition: color .15s linear; }
+  .social .fa-facebook-square:hover {
+    color: #2D3544; }
+  .social .fa-twitter-square:hover {
+    color: #2B3841; }
   @media (max-width: 650px) {
     .social i {
       font-size: 2em; } }

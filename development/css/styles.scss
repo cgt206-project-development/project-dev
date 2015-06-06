@@ -2,6 +2,10 @@
 
 $red: #790000;
 $blue: #0E1333;
+$facebook: #3b5998;
+$twitter: #55acee;
+$facebook-dark: #2D3544;
+$twitter-dark: #2B3841;
 $serif: "Source Serif Pro";
 $sans: "Source Sans Pro";
 $raleway: "Raleway";
@@ -71,7 +75,7 @@ header {
 		float: left;
 		height: 12em;
 	}
-	
+
 	//header nav
 	nav {
 		ul {
@@ -89,10 +93,6 @@ header {
 		a {
 			color: #FFF;
 			text-decoration: none;
-		}
-
-		a:hover {
-			// color: $blue;
 		}
 
 		.menuIcon {
@@ -167,11 +167,23 @@ header {
 	}
 
 	.fa-facebook-square {
-		color: #3b5998
+		color: $facebook;
 	}
 
 	.fa-twitter-square {
-		color: #55acee;
+		color: $twitter
+	}
+
+	.fa-facebook-square, .fa-twitter-square {
+		transition: color .15s linear;
+	}
+
+	.fa-facebook-square:hover {
+		color: $facebook-dark;
+	}
+
+	.fa-twitter-square:hover {
+		color: $twitter-dark;
 	}
 
 	@media(max-width: 650px) {
@@ -179,7 +191,7 @@ header {
 			font-size: 2em;
 		}
 	}
-}
+} //end social
 
 .content {
 	h2 {
