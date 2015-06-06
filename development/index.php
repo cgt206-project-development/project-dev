@@ -11,11 +11,11 @@ require_once "includes/header.inc.php";
 		</section>
 		<section class="three-col">
 			<h3>Community Involvement</h3>
-			<img src="http://lorempixel.com/220/160/" alt="Placeholder image" class="full-img">
+			<img src="http://lorempixel.com/220/160/abstract" alt="Placeholder image" class="full-img">
 		</section>
 		<section class="three-col">
 			<h3>Partners</h3>
-			<img src="http://lorempixel.com/220/160/" alt="Placeholder image" class="full-img">
+			<img src="http://lorempixel.com/220/160/abstract" alt="Placeholder image" class="full-img">
 		</section>
 	</div>
 
