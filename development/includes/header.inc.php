@@ -6,6 +6,8 @@
 	<title><?php echo $page_title; ?></title>
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!--zzzchange here-->
+	<script src="js/script.js"></script> <!--zzzchange here-->
 </head>
 <body>
 	<header>

@@ -78,7 +78,20 @@ header {
 
 	//header nav
 	nav {
+		padding: 0;
+		border: 0;
+		list-style: none;
+		font-weight: normal;
+		text-decoration: none;
+		line-height: 1;
+		font-family: $sans;
+		font-size: 1.2em;
+		position: relative;
+		background-color: #FFF;
+
 		ul {
+			border: 1px solid #000000;
+			background: $red;
 
 			li {
 				padding: 10px;
@@ -90,9 +103,16 @@ header {
 			}
 		}
 
+		ul:after {
+		  clear: both;
+		  content: '';
+		  display: table;
+		}
+
 		a {
 			color: #FFF;
 			text-decoration: none;
+			line-height: 1.5;
 		}
 
 		.menuIcon {
