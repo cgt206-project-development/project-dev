@@ -4,26 +4,33 @@ $page_heading = "Officers";
 require_once "includes/header.inc.php";
  ?>
 	<p>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ducimus perferendis fugiat temporibus iste dolor, eos aut. Est nesciunt perferendis ipsam, mollitia dolorum repudiandae ut eligendi tempora! Ipsam, tenetur, saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, eveniet! Illum nesciunt, accusamus ea rem culpa quod rerum minus ex libero atque reprehenderit, quisquam tempore repudiandae dolore expedita eveniet deserunt.
+		Executive Officers for Southwest WA Council 47013 work together as a team to create an atmosphere of mutual respect while working to achieve a common goal.  Each council member brings a unique strength and perspective that cumulatively builds upon the power of unity. It is through the LULAC code, philosophy, aims and purposes that this council is successful.
+	</p>
+
+	<p>
+		If you are interested in supporting LULAC’s programs in civic engagement, civil rights, economic empowerment, education, health, housing, immigration, public service or technology please contact us at Southwestwashingtonlulac@gmail.com
 	</p>
 
 	<div class="three-pic-row">
 		<figure>
 			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
 			<figcation>
-				Officer Name/Title
+				Diana H. Perez
+				President
 			</figcation>
 		</figure>
 		<figure>
 			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
 			<figcation>
-				Officer Name/Title
+				Carmen McKibben
+				Vice President
 			</figcation>
 		</figure>
 		<figure>
 			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
 			<figcation>
-				Officer Name/Title
+				Diana Avalos-Leos
+				Vice President for Youth
 			</figcation>
 		</figure>
 	</div>
@@ -33,25 +40,29 @@ require_once "includes/header.inc.php";
 		<figure>
 			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
 			<figcation>
-				Officer Name/Title
+				Eulalia Soto
+				Treasurer
 			</figcation>
 		</figure>
 		<figure>
 			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
 			<figcation>
-				Officer Name/Title
+				Debra Robertson
+				Secretary
 			</figcation>
 		</figure>
 		<figure>
 			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
 			<figcation>
-				Officer Name/Title
+				Jack Buckman
+				Parliamentarian
 			</figcation>
 		</figure>
 		<figure>
 			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
 			<figcation>
-				Officer Name/Title
+				Javier Navarro
+				Sergeat-at-Arms
 			</figcation>
 		</figure>
 	</div>
