@@ -16,22 +16,28 @@ require_once "includes/header.inc.php";
 			<img src="images/officers/diana_perez.jpg" alt="Placeholder image" class="full-img">
 			<figcation>
 				Diana H. Perez
-				President
 			</figcation>
+			<figcaption>
+				President
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="images/officers/carmen_mckibben.jpg" alt="Placeholder image" class="full-img">
 			<figcation>
 				Carmen McKibben
-				Vice President
 			</figcation>
+			<figcaption>
+				Vice President
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="images/officers/diana_avalos_leos.jpg" alt="Placeholder image" class="full-img">
 			<figcation>
 				Diana Avalos-Leos
-				Vice President for Youth
 			</figcation>
+			<figcaption>
+				Vice President for Youth
+			</figcaption>
 		</figure>
 	</div>
 	<!-- End three-pic-row -->
@@ -41,29 +47,37 @@ require_once "includes/header.inc.php";
 			<img src="images/officers/eulalia_soto.jpg" alt="Placeholder image" class="full-img">
 			<figcation>
 				Eulalia Soto
-				Treasurer
 			</figcation>
+			<figcaption>
+				Treasurer
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="images/officers/debra_robertson.jpg" alt="Placeholder image" class="full-img">
 			<figcation>
 				Debra Robertson
-				Secretary
 			</figcation>
+			<figcaption>
+				Secretary
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="images/officers/jack_buckman.jpg" alt="Placeholder image" class="full-img">
 			<figcation>
 				Jack Buckman
-				Parliamentarian
 			</figcation>
+			<figcaption>
+				Parliamentarian
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="images/officers/javier_navarro.jpg" alt="Placeholder image" class="full-img">
 			<figcation>
 				Javier Navarro
-				Sergeat-at-Arms
 			</figcation>
+			<figcaption>
+				Sergeat-at-Arms
+			</figcaption>
 		</figure>
 	</div>
  <?php require_once "includes/footer.inc.php"; ?>
