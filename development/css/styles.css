@@ -322,14 +322,14 @@ footer {
     width: 100%;
     margin: 0 auto;
     text-align: center; }
-    footer nav .menuIcon {
-      display: none; }
     footer nav ul {
       padding-left: 0; }
       footer nav ul li {
+        display: inline-block;
         width: 15%;
         margin: 0 auto;
         margin-left: 0;
+        padding: 10px;
         padding-left: 0; }
 
 /*# sourceMappingURL=styles.css.map */
