@@ -13,21 +13,21 @@ require_once "includes/header.inc.php";
 
 	<div class="three-pic-row">
 		<figure>
-			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
+			<img src="images/officers/diana_perez.jpg" alt="Placeholder image" class="full-img">
 			<figcation>
 				Diana H. Perez
 				President
 			</figcation>
 		</figure>
 		<figure>
-			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
+			<img src="images/officers/carmen_mckibben.jpg" alt="Placeholder image" class="full-img">
 			<figcation>
 				Carmen McKibben
 				Vice President
 			</figcation>
 		</figure>
 		<figure>
-			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
+			<img src="images/officers/diana_avalos_leos.jpg" alt="Placeholder image" class="full-img">
 			<figcation>
 				Diana Avalos-Leos
 				Vice President for Youth
@@ -38,28 +38,28 @@ require_once "includes/header.inc.php";
 
 	<div class="four-pic-row">
 		<figure>
-			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
+			<img src="images/officers/eulalia_soto.jpg" alt="Placeholder image" class="full-img">
 			<figcation>
 				Eulalia Soto
 				Treasurer
 			</figcation>
 		</figure>
 		<figure>
-			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
+			<img src="images/officers/debra_robertson.jpg" alt="Placeholder image" class="full-img">
 			<figcation>
 				Debra Robertson
 				Secretary
 			</figcation>
 		</figure>
 		<figure>
-			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
+			<img src="images/officers/jack_buckman.jpg" alt="Placeholder image" class="full-img">
 			<figcation>
 				Jack Buckman
 				Parliamentarian
 			</figcation>
 		</figure>
 		<figure>
-			<img src="http://lorempixel.com/160/230/abstract" alt="Placeholder image" class="full-img">
+			<img src="images/officers/javier_navarro.jpg" alt="Placeholder image" class="full-img">
 			<figcation>
 				Javier Navarro
 				Sergeat-at-Arms
