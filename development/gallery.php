@@ -29,7 +29,7 @@ require_once "includes/header.inc.php";
 		<a href="images/2015-05-01 Cinco de Mayo/4.jpg" class="resize"></a>
 
 		<h3>
-			Cinco de Mayo
+			¡Adelante! America
 		</h3>
 	</section>
 	<section class="gallery">

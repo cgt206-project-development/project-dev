@@ -45,7 +45,7 @@ header {
   header img {
     float: left;
     height: 12em; }
-  @media (max-width: 650px) {
+  @media (max-width: 850px) {
     header {
       background-size: 250%;
       font-size: 1em;
@@ -164,7 +164,7 @@ header {
       color: #FFF;
       text-decoration: none;
       line-height: 1.5; }
-  @media (max-width: 650px) {
+  @media (max-width: 850px) {
     header .menu.expand ul {
       max-height: 900px; } }
 
@@ -184,7 +184,7 @@ header {
     color: #2D3544; }
   .social .fa-twitter-square:hover {
     color: #2B3841; }
-  @media (max-width: 650px) {
+  @media (max-width: 850px) {
     .social i {
       font-size: 2em; } }
 
@@ -228,7 +228,7 @@ header {
       width: 33%; }
       .content .three-col-container section img {
         max-width: 100%; }
-    @media (max-width: 650px) {
+    @media (max-width: 850px) {
       .content .three-col-container section {
         width: 100%; }
       .content .three-col-container img {
@@ -239,7 +239,7 @@ header {
     width: 33%; }
   .content .thirty-sixty-container section.sixty {
     width: 64%; }
-  @media (max-width: 650px) {
+  @media (max-width: 850px) {
     .content .thirty-sixty-container section:first-of-type, .content .thirty-sixty-container section:last-of-type {
       width: 100%; } }
   .content .fifty-fifty-container {
@@ -251,21 +251,27 @@ header {
       .content .fifty-fifty-container section ul {
         width: 90%; }
     .content .fifty-fifty-container img {
-      width: 35%;
-      max-height: 200px;
+      width: 45%;
       margin: 20px;
       margin-top: 0;
       float: left; }
     .content .fifty-fifty-container p.fifty-fifty {
       float: left;
-      margin: 1em; }
+      margin: 1em;
+      width: 50%; }
     .content .fifty-fifty-container iframe {
       padding-top: 1.5em; }
-    @media (max-width: 650px) {
+    @media (max-width: 850px) {
       .content .fifty-fifty-container section {
         width: 100%; }
       .content .fifty-fifty-container img {
         width: 100%; } }
+  .content section.fifty-fifty-container p {
+    width: 50%;
+    float: left; }
+  @media (max-width: 850px) {
+    .content section.fifty-fifty-container p {
+      width: 100%; } }
   .content .meeting-info {
     width: 100%;
     padding: 2em;
@@ -283,13 +289,28 @@ header {
   margin: 0 auto; }
   .partners a {
     color: #000;
-    text-decoration: none;
+    text-decoration: none; }
+  .partners .partner-title {
     font-weight: bold;
     font-size: 1.4em; }
   .partners li {
     margin-bottom: 1em;
-    list-style-image: url("../images/li_placeholder.jpg"); }
-  @media (max-width: 650px) {
+    list-style-type: none; }
+    .partners li img {
+      display: block;
+      max-width: 40%; }
+  .partners .small-partner-img {
+    height: 5em;
+    margin-bottom: .5em; }
+  .partners .small-partner-img:nth-of-type(2) {
+    height: 2em; }
+  .partners .elipses {
+    font-family: "Source Sans Pro";
+    font-size: 1.2em;
+    width: 4em;
+    height: 2em;
+    letter-spacing: .1em; }
+  @media (max-width: 850px) {
     .partners {
       width: 100%;
       padding-left: 0; }
@@ -314,7 +335,7 @@ header {
   .events img {
     width: 100%;
     margin: 0 auto; }
-  @media (max-width: 650px) {
+  @media (max-width: 850px) {
     .events {
       width: 100%;
       max-width: 500px; }
@@ -334,7 +355,7 @@ header {
     width: calc(35% - 20px); }
   .youth .thirty-sixty-container img:last-of-type {
     width: calc(55% - 20px); }
-  @media (max-width: 650px) {
+  @media (max-width: 850px) {
     .youth .thirty-sixty-container img:first-of-type, .youth .thirty-sixty-container img:last-of-type {
       width: 100%; } }
 
@@ -355,7 +376,7 @@ header {
 .three-pic-row figure {
   width: 21%;
   margin: 10px calc(30% / 6 + 10px); }
-@media (max-width: 650px) {
+@media (max-width: 850px) {
   .three-pic-row {
     width: 100%; }
     .three-pic-row figure {
@@ -367,7 +388,7 @@ header {
 .four-pic-row figure {
   width: 21%;
   margin: 10px calc(10% / 12 + 10px); }
-  @media (max-width: 650px) {
+  @media (max-width: 850px) {
     .four-pic-row figure {
       width: 60%;
       float: none;
@@ -382,7 +403,7 @@ header {
     font-size: 1.7em; }
   .gallery img {
     width: 90%; }
-  @media (max-width: 650px) {
+  @media (max-width: 850px) {
     .gallery {
       width: 100%; } }
 
