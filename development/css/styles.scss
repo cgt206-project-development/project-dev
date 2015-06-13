@@ -291,10 +291,17 @@ header {
 	width: 90%;
 	max-width: 1000px;
 	margin: 0 auto;
+	line-height: 1.5em;
 
 	section {
 		padding: 15px;
 		padding-top: 0;
+	}
+
+	a {
+		text-decoration: none;
+		color: black;
+		font-weight: bold;
 	}
 
 	.three-col-container {
@@ -302,7 +309,7 @@ header {
 
 		section {
 			float: left;
-			width: 30%;
+			width: 33%;
 
 			img {
 				max-width: 100%;
@@ -346,6 +353,10 @@ header {
 		section {
 			width: 50%;
 			float: left;
+
+			ul {
+				width: 90%;
+			}
 		}
 
 		img {
@@ -357,10 +368,12 @@ header {
 		}
 
 		p.fifty-fifty {
-			// width: 45%;
 			float: left;
 			margin: 1em;
-			line-height: 1.5em;
+		}
+
+		iframe {
+			padding-top: 1.5em;
 		}
 
 		@media(max-width: 650px) {
@@ -374,6 +387,16 @@ header {
 		} //end max-width: 650px media query
 
 	} //end .fifty-fifty-container
+
+	.meeting-info {
+		width: 100%;
+		padding: 2em;
+		text-align: center;
+		font-family: $sans;
+		color: $blue;
+		border-bottom: 2px solid $blue;
+		border-top: 2px solid $blue;
+	}
 
 } //end .content
 
