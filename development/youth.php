@@ -8,7 +8,7 @@ require_once "includes/header.inc.php";
 			¡Adelante! America Youth Leadership Program
 		</h3>
 		<p>
-			This youth leadership development program is a collaborative effort between LULAC and AT&amp;T for underserved youth to encourage participants to conduct community service projects, meet with positive role models and explore alternatives to violence and crime. The program works with Latino youth to cultivate optimism, build resilience, and improve academic skills with the goal of successful high school completion. Mentoring programs are crucial to help motivate youth that reside in underrepresented communities. Currently, Fort Vancouver High School in Vancouver, WA is the first site in the Pacific Northwest to have this youth leadership program during the school year.  For more information contact our program coordinator Jennifer Cazares at southwestwashingtonlulac@gmail.com.
+			This youth leadership development program is a collaborative effort between LULAC and AT&amp;T for underserved youth to encourage participants to conduct community service projects, meet with positive role models and explore alternatives to violence and crime. The program works with Latino youth to cultivate optimism, build resilience, and improve academic skills with the goal of successful high school completion. Mentoring programs are crucial to help motivate youth that reside in underrepresented communities. Currently, Fort Vancouver High School in Vancouver, WA is the first site in the Pacific Northwest to have this youth leadership program during the school year.  For more information contact our program coordinator Diana Perez at southwestwashingtonlulac@gmail.com.
 		</p>
 
 		<div class="thirty-sixty-container">

@@ -21,8 +21,8 @@
 
 <div class="content">
 <div class="social">
-	<i class="fa fa-facebook-square"></i>
-	<i class="fa fa-twitter-square"></i>
+	<a href="https://www.facebook.com/southwestwashingtonlulac"><i class="fa fa-facebook-square"></i></a>
+	<a href="https://twitter.com/lulacswwa"><i class="fa fa-twitter-square"></i></a>
 </div>
 <?php
 if (isset($page_heading))	echo "<h2>{$page_heading}</h2>";

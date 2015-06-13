@@ -249,8 +249,7 @@ header {
 
 .partners {
   width: 90%;
-  margin: 0 auto;
-  font-family: "Source Sans Pro"; }
+  margin: 0 auto; }
   .partners a {
     color: #000;
     text-decoration: none;
@@ -260,9 +259,16 @@ header {
     margin-bottom: 1em;
     list-style-image: url("../images/li_placeholder.jpg"); }
   @media (max-width: 650px) {
-    .partners li {
-      list-style-type: none;
-      list-style-image: none; } }
+    .partners {
+      width: 100%;
+      padding-left: 0; }
+      .partners ul {
+        width: 90%;
+        padding-left: 1em;
+        margin-bottom: 2em; }
+      .partners li {
+        list-style-type: none;
+        list-style-image: none; } }
 
 .events {
   width: 80%;
@@ -271,11 +277,19 @@ header {
   .events p {
     font-size: 1.3em;
     margin-top: 0; }
+  .events section {
+    margin: 0 auto;
+    width: 70%; }
+  .events img {
+    width: 100%;
+    margin: 0 auto; }
   @media (max-width: 650px) {
     .events {
       width: 100%;
       max-width: 500px; }
       .events iframe {
+        width: 100%; }
+      .events section {
         width: 100%; } }
 
 .youth .thirty-sixty-container {

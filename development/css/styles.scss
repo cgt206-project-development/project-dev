@@ -407,7 +407,6 @@ header {
 .partners {
 	width: 90%;
 	margin: 0 auto;
-	font-family: $sans;
 
 	a {
 		color: #000;
@@ -422,6 +421,15 @@ header {
 	}
 
 	@media(max-width: 650px) {
+		width: 100%;
+		padding-left: 0;
+		ul {
+			width: 90%;
+			padding-left: 1em;
+			// margin-left: 0;
+			margin-bottom: 2em;
+		}
+
 		li {
 			list-style-type: none;
 			list-style-image: none;
@@ -440,11 +448,25 @@ header {
 		margin-top: 0;
 	}
 
+	section {
+		margin: 0 auto;
+		width: 70%;
+	}
+
+	img {
+		width: 100%;
+		margin: 0 auto;
+	}
+
 	@media(max-width: 650px) {
 		width: 100%;
 		max-width: 500px;
 
 		iframe {
+			width: 100%;
+		}
+
+		section {
 			width: 100%;
 		}
 	}
