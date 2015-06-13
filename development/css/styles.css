@@ -219,6 +219,8 @@ header {
     transition: width .25s ease; }
   .content a:hover::after {
     width: 100%; }
+  .content .social a:hover::after {
+    width: 0; }
   .content .three-col-container {
     clear: both; }
     .content .three-col-container section {

@@ -340,6 +340,10 @@ header {
 		width: 100%;
 	}
 
+	.social a:hover::after {
+		width: 0;
+	}
+
 	.three-col-container {
 		clear: both;
 
