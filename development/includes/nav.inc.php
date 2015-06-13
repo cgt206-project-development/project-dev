@@ -1,7 +1,7 @@
 <!-- Nav include -->
 <nav class="menu"> 
 	<ul>
-		<li><a href="national.php"><span>National</span></a></li>
+		<li><a href="index.php"><span>Home</span></a></li>
 		<li><a href="officers.php"><span>Officers</span></a></li>
 		<li><a href="youth.php"><span>Youth</span></a></li>
 		<li><a href="partners.php"><span>Partners</span></a></li>
