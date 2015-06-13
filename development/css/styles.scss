@@ -324,11 +324,11 @@ header {
 	.thirty-sixty-container {
 		section {float: left;}
 
-		section:first-of-type {
+		section.thirty {
 			width: 33%;
 		}
 
-		section:last-of-type {
+		section.sixty {
 			width: 64%;
 		}
 
@@ -354,6 +354,13 @@ header {
 			margin: 20px;
 			margin-top: 0;
 			float: left;
+		}
+
+		p.fifty-fifty {
+			// width: 45%;
+			float: left;
+			margin: 1em;
+			line-height: 1.5em;
 		}
 
 		@media(max-width: 650px) {
