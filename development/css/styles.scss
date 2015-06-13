@@ -322,6 +322,22 @@ header {
 		text-decoration: none;
 		color: black;
 		font-weight: bold;
+		position: relative;
+	}
+
+	a::after {
+		content: '';
+		background-color: $red;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 0;
+		height: 2px;
+		transition: width .25s ease;
+	}
+
+	a:hover::after {
+		width: 100%;
 	}
 
 	.three-col-container {

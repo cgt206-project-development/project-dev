@@ -206,7 +206,19 @@ header {
   .content a {
     text-decoration: none;
     color: black;
-    font-weight: bold; }
+    font-weight: bold;
+    position: relative; }
+  .content a::after {
+    content: '';
+    background-color: #790000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: width .25s ease; }
+  .content a:hover::after {
+    width: 100%; }
   .content .three-col-container {
     clear: both; }
     .content .three-col-container section {
