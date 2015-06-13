@@ -266,9 +266,9 @@ header {
     float: left;
     margin: 20px; }
   .youth .thirty-sixty-container img:first-of-type {
-    width: calc(30% - 20px); }
+    width: calc(35% - 20px); }
   .youth .thirty-sixty-container img:last-of-type {
-    width: calc(60% - 20px); }
+    width: calc(55% - 20px); }
   @media (max-width: 650px) {
     .youth .thirty-sixty-container img:first-of-type, .youth .thirty-sixty-container img:last-of-type {
       width: 100%; } }
