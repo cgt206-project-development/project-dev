@@ -1,6 +1,6 @@
 ( function( $ ) {
 $( document ).ready(function() {
-$('.menu > ul').prepend('<li class=\"mobile\"><a href=\"#\"><span>Menu <i>&#9776;</i></span></a></li>');
+$('.menu > ul').prepend('<li class=\"mobile\"><a href=\"#\"><i class="fa fa-bars"></i></span></a></li>');
 $('.menu > ul > li > a').click(function(e) {
   $('.menu li').removeClass('active');
   $(this).closest('li').addClass('active');	

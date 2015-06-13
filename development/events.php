@@ -4,7 +4,7 @@ $page_heading = "Events";
 require_once "includes/header.inc.php";
  ?>
 <section class="events">
-<!-- 	<p>
+	<!-- 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi fuga recusandae tenetur vel, doloremque debitis aperiam odit voluptatum  dicta saepe quod voluptates!
 	</p>
 

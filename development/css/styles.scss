@@ -94,7 +94,6 @@ header {
 			padding: 0;
 
 			li {
-				padding: 1px;
 				width: 10%;
 				display: inline-block;
 				margin: 0 auto;
@@ -102,10 +101,13 @@ header {
 
 				a {
 					margin: 0 0 2px 0;
+					// margin: 0;
 					font-size: .7em;
 					display: block;
 					color: #ffffff;
 					text-shadow: 0 1px 1px #000;
+					background: inherit;
+					transition: background .25s ease;
 
 					span {
 						display: block;
@@ -191,16 +193,17 @@ header {
 
 				li {
 					border-right: 0 none;
-					display: block;
 					float: none;
+					width: 100%;
 				}
 
 				li.mobile {
 					display: block;
+					font-size: 1.4em;
 
 					i {
 						float: right;
-						font-style: normal;
+						margin-right: 5px;
 					}
 				}
 
@@ -244,8 +247,10 @@ header {
 } //end header
 
 .social {
-	float: right;
-	margin-left: 1em;
+	// float: right;
+	// margin-left: 1em;
+	position: absolute;
+	right: 0;
 
 	i {
 		width: 100%;
