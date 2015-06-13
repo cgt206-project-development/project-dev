@@ -175,7 +175,8 @@ header {
   padding: 5px;
   width: 90%;
   max-width: 1000px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  line-height: 1.5em; }
   .content h2 {
     font-family: "Source Serif Pro";
     color: #0E1333;
@@ -185,11 +186,15 @@ header {
   .content section {
     padding: 15px;
     padding-top: 0; }
+  .content a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; }
   .content .three-col-container {
     clear: both; }
     .content .three-col-container section {
       float: left;
-      width: 30%; }
+      width: 33%; }
       .content .three-col-container section img {
         max-width: 100%; }
     @media (max-width: 650px) {
@@ -199,9 +204,9 @@ header {
         width: 100%; } }
   .content .thirty-sixty-container section {
     float: left; }
-  .content .thirty-sixty-container section:first-of-type {
+  .content .thirty-sixty-container section.thirty {
     width: 33%; }
-  .content .thirty-sixty-container section:last-of-type {
+  .content .thirty-sixty-container section.sixty {
     width: 64%; }
   @media (max-width: 650px) {
     .content .thirty-sixty-container section:first-of-type, .content .thirty-sixty-container section:last-of-type {
@@ -212,17 +217,32 @@ header {
     .content .fifty-fifty-container section {
       width: 50%;
       float: left; }
+      .content .fifty-fifty-container section ul {
+        width: 90%; }
     .content .fifty-fifty-container img {
       width: 35%;
       max-height: 200px;
       margin: 20px;
       margin-top: 0;
       float: left; }
+    .content .fifty-fifty-container p.fifty-fifty {
+      float: left;
+      margin: 1em; }
+    .content .fifty-fifty-container iframe {
+      padding-top: 1.5em; }
     @media (max-width: 650px) {
       .content .fifty-fifty-container section {
         width: 100%; }
       .content .fifty-fifty-container img {
         width: 100%; } }
+  .content .meeting-info {
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    color: #0E1333;
+    border-bottom: 2px solid #0E1333;
+    border-top: 2px solid #0E1333; }
 
 .clearFix {
   clear: both; }
