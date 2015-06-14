@@ -36,7 +36,7 @@ require_once "includes/header.inc.php";
 	<section class="youth">
 		<h3>Scholarship Opportunities</h3>
 		<p>
-			Through our partnership with the Hispanic Metropolitan Chamber of Commerce we are able to grow opportunities for student scholarships. Each dollar we raise for scholarships is matched 100% by the Hispanic Metropolitan Chamber!  Several thousands of dollars have already been given to students in southwest Washington. If you are interested in donating funds for student scholarships, please contact Diana Avalos-Leos at <a href="mailto:Clark.co.latinoyouthconference@gmail.com">Clark.co.latinoyouthconference@gmail.com</a>.
+			Through our partnership with the Hispanic Metropolitan Chamber of Commerce we are able to grow opportunities for student scholarships. Each dollar we raise for scholarships is matched 100% by the Hispanic Metropolitan Chamber!  Several thousands of dollars have already been given to students in southwest Washington. If you are interested in donating funds for student scholarships, please contact <a href="mailto:Clark.co.latinoyouthconference@gmail.com">Diana Avalos-Leos</a>.
 		</p>
 	</section>
  <?php require_once "includes/footer.inc.php"; ?>

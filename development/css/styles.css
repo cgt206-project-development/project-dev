@@ -45,21 +45,24 @@ header {
   header img {
     float: left;
     height: 12em; }
-  @media (max-width: 850px) {
+  @media only screen and (max-width: 850px), (max-device-width: 850px) {
     header {
       background-size: 250%;
-      font-size: 1em;
       padding-top: 50px;
       position: relative; }
       header .heading-wrapper {
         padding-top: 0;
-        margin-bottom: -1em; }
+        margin-bottom: -1em;
+        font-size: 1.5em; }
       header img {
         height: 5em;
         float: none;
         position: absolute;
         top: 0;
         left: 0; } }
+  @media only screen and (max-device-width: 850px) {
+    header {
+      padding-top: 80px; } }
   header .menu {
     padding: 0;
     border: 0;
@@ -120,10 +123,11 @@ header {
         left: 0;
         top: calc(1.5em + 3px);
         width: 200px;
-        z-index: 1; }
+        z-index: 20; }
         header .menu ul ul li {
           padding: 3px 0;
-          width: 100%; }
+          width: 100%;
+          z-index: 30; }
         header .menu ul ul a {
           color: #000;
           display: block;
@@ -135,7 +139,7 @@ header {
     header .menu ul::after {
       clear: both;
       content: ''; }
-    @media (max-width: 650px) {
+    @media screen and (max-width: 850px), (max-device-width: 850px) {
       header .menu ul {
         max-height: 32px;
         overflow: hidden;
@@ -164,13 +168,22 @@ header {
       color: #FFF;
       text-decoration: none;
       line-height: 1.5; }
-  @media (max-width: 850px) {
+    @media screen and (max-device-width: 850px) {
+      header .menu ul {
+        max-height: 1em;
+        font-size: 5em;
+        margin-top: .3em; }
+      header .menu li.mobile {
+        font-size: 26em;
+        margin: 0; } }
+  @media screen and (max-width: 850px), (max-device-width: 850px) {
     header .menu.expand ul {
-      max-height: 900px; } }
+      max-height: 1200px; } }
 
 .social {
   position: absolute;
-  right: 0; }
+  right: 0;
+  z-index: 0; }
   .social i {
     width: 100%;
     font-size: 2.5em; }
@@ -184,9 +197,10 @@ header {
     color: #2D3544; }
   .social .fa-twitter-square:hover {
     color: #2B3841; }
-  @media (max-width: 850px) {
-    .social i {
-      font-size: 2em; } }
+  @media screen and (max-device-width: 850px) {
+    .social {
+      font-size: 2em;
+      top: calc(-50px + 19em); } }
 
 .content {
   padding: 5px;
@@ -195,7 +209,7 @@ header {
   margin: 0 auto;
   line-height: 1.5em; }
   .content h2 {
-    font-family: "Source Serif Pro";
+    font-family: "Lora";
     color: #0E1333;
     text-align: center;
     font-size: 2em;
@@ -228,7 +242,7 @@ header {
       width: 33%; }
       .content .three-col-container section img {
         max-width: 100%; }
-    @media (max-width: 850px) {
+    @media screen and (max-width: 850px), (max-device-width: 850px) {
       .content .three-col-container section {
         width: 100%; }
       .content .three-col-container img {
@@ -239,7 +253,7 @@ header {
     width: 33%; }
   .content .thirty-sixty-container section.sixty {
     width: 64%; }
-  @media (max-width: 850px) {
+  @media screen and (max-width: 850px), (max-device-width: 850px) {
     .content .thirty-sixty-container section:first-of-type, .content .thirty-sixty-container section:last-of-type {
       width: 100%; } }
   .content .fifty-fifty-container {
@@ -261,7 +275,7 @@ header {
       width: 50%; }
     .content .fifty-fifty-container iframe {
       padding-top: 1.5em; }
-    @media (max-width: 850px) {
+    @media only screen and (max-width: 850px), (max-device-width: 850px) {
       .content .fifty-fifty-container section {
         width: 100%; }
       .content .fifty-fifty-container img {
@@ -269,7 +283,7 @@ header {
   .content section.fifty-fifty-container p {
     width: 50%;
     float: left; }
-  @media (max-width: 850px) {
+  @media only screen and (max-width: 850px), (max-device-width: 850px) {
     .content section.fifty-fifty-container p {
       width: 100%; } }
   .content .meeting-info {
@@ -310,7 +324,7 @@ header {
     width: 4em;
     height: 2em;
     letter-spacing: .1em; }
-  @media (max-width: 850px) {
+  @media only screen and (max-width: 850px), (max-device-width: 850px) {
     .partners {
       width: 100%;
       padding-left: 0; }
@@ -335,7 +349,7 @@ header {
   .events img {
     width: 100%;
     margin: 0 auto; }
-  @media (max-width: 850px) {
+  @media only screen and (max-width: 850px), (max-device-width: 850px) {
     .events {
       width: 100%;
       max-width: 500px; }
@@ -355,7 +369,7 @@ header {
     width: calc(35% - 20px); }
   .youth .thirty-sixty-container img:last-of-type {
     width: calc(55% - 20px); }
-  @media (max-width: 850px) {
+  @media only screen and (max-width: 850px), (max-device-width: 850px) {
     .youth .thirty-sixty-container img:first-of-type, .youth .thirty-sixty-container img:last-of-type {
       width: 100%; } }
 
@@ -376,7 +390,7 @@ header {
 .three-pic-row figure {
   width: 21%;
   margin: 10px calc(30% / 6 + 10px); }
-@media (max-width: 850px) {
+@media only screen and (max-width: 850px), (max-device-width: 850px) {
   .three-pic-row {
     width: 100%; }
     .three-pic-row figure {
@@ -388,7 +402,7 @@ header {
 .four-pic-row figure {
   width: 21%;
   margin: 10px calc(10% / 12 + 10px); }
-  @media (max-width: 850px) {
+  @media only screen and (max-width: 850px), (max-device-width: 850px) {
     .four-pic-row figure {
       width: 60%;
       float: none;
@@ -403,7 +417,7 @@ header {
     font-size: 1.7em; }
   .gallery img {
     width: 90%; }
-  @media (max-width: 850px) {
+  @media only screen and (max-width: 850px), (max-device-width: 850px) {
     .gallery {
       width: 100%; } }
 
@@ -426,5 +440,9 @@ footer {
         margin-left: 0;
         padding: 10px;
         padding-left: 0; }
+      @media screen and (max-device-width: 850px) {
+        footer nav ul li {
+          padding: 2em;
+          font-size: 1.5em; } }
 
 /*# sourceMappingURL=styles.css.map */

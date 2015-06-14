@@ -74,23 +74,26 @@ header {
 		height: 12em;
 	}
 
-	@media(max-width: 850px) {
+	@media only screen and (max-width: 850px), (max-device-width: 850px) {
 		background-size: 250%;
-		font-size: 1em;
 		padding-top: 50px;
 		position: relative;
 		.heading-wrapper {
 			padding-top: 0;
 			margin-bottom: -1em;
+			font-size: 1.5em;
 		}
 		img {
 			height: 5em;
 			float: none;
 			position: absolute;
-			// bottom: -1.5em;
 			top: 0;
 			left: 0;
 		}
+	}
+
+	@media only screen and (max-device-width: 850px) {
+		padding-top: 80px;
 	}
 
 	//header nav
@@ -175,11 +178,12 @@ header {
 				left: 0;
 				top: calc(1.5em + 3px);
 				width: 200px;
-				z-index: 1;
+				z-index: 20;
 
 				li {
 					padding: 3px 0;
 					width: 100%;
+					z-index: 30;
 				}
 
 				a {
@@ -201,7 +205,7 @@ header {
 		  content: '';
 		}
 
-		@media(max-width: 650px) {
+		@media screen and (max-width: 850px), (max-device-width: 850px) {
 			ul {
 				max-height: 32px;
 				overflow: hidden;
@@ -245,21 +249,36 @@ header {
 			text-decoration: none;
 			line-height: 1.5;
 		}
+
+	@media screen and (max-device-width: 850px) {
+		ul {
+			max-height: 1em;
+			font-size: 5em;
+			margin-top: .3em;
+		}
+
+		li.mobile {
+			font-size: 26em;
+			margin: 0;
+		}
+	}
+
 	} //end header nav
 
-	@media(max-width: 850px) {
+
+
+	@media screen and (max-width: 850px), (max-device-width: 850px) {
 		.menu.expand ul {
-				max-height: 900px;
+				max-height: 1200px;
 			}
 	}
 
 } //end header
 
 .social {
-	// float: right;
-	// margin-left: 1em;
 	position: absolute;
 	right: 0;
+	z-index: 0;
 
 	i {
 		width: 100%;
@@ -286,16 +305,16 @@ header {
 		color: $twitter-dark;
 	}
 
-	@media(max-width: 850px) {
-		i {
+	@media screen and (max-device-width: 850px) {
 			font-size: 2em;
-		}
+			top: calc(-50px + 19em);
+			// right: -1em;
 	}
 } //end social
 
 .content {
 	h2 {
-		font-family: $serif;
+		font-family: $lora;
 		color: $blue;
 		text-align: center;
 		font-size: 2em;
@@ -350,7 +369,7 @@ header {
 			}
 		}
 
-		@media(max-width: 850px) {
+		@media screen and (max-width: 850px), (max-device-width: 850px) {
 			section {
 				width: 100%;
 			}
@@ -373,7 +392,7 @@ header {
 			width: 64%;
 		}
 
-		@media(max-width: 850px) {
+		@media screen and (max-width: 850px), (max-device-width: 850px) {
 			section:first-of-type, section:last-of-type {
 				width: 100%;
 			}
@@ -395,7 +414,6 @@ header {
 
 		img {
 			width: 45%;
-			// max-height: 200px;
 			margin: 20px;
 			margin-top: 0;
 			float: left;
@@ -411,7 +429,7 @@ header {
 			padding-top: 1.5em;
 		}
 
-		@media(max-width: 850px) {
+		@media only screen and (max-width: 850px), (max-device-width: 850px) {
 			section {
 				width: 100%;
 			}
@@ -429,7 +447,7 @@ header {
 			float: left;
 		}
 
-		@media(max-width: 850px) {
+		@media only screen and (max-width: 850px), (max-device-width: 850px) {
 			p {
 				width: 100%;
 			}
@@ -492,13 +510,12 @@ header {
 		letter-spacing: .1em;
 	}
 
-	@media(max-width: 850px) {
+	@media only screen and (max-width: 850px), (max-device-width: 850px) {
 		width: 100%;
 		padding-left: 0;
 		ul {
 			width: 90%;
 			padding-left: 1em;
-			// margin-left: 0;
 			margin-bottom: 2em;
 		}
 
@@ -515,7 +532,6 @@ header {
 	margin: 0 auto;
 
 	p {
-		// font-weight: bold;
 		font-size: 1.3em;
 		margin-top: 0;
 	}
@@ -530,7 +546,7 @@ header {
 		margin: 0 auto;
 	}
 
-	@media(max-width: 850px) {
+	@media only screen and (max-width: 850px), (max-device-width: 850px) {
 		width: 100%;
 		max-width: 500px;
 
@@ -564,7 +580,7 @@ header {
 			width: calc(55% - 20px);
 		}
 
-		@media(max-width: 850px) {
+		@media only screen and (max-width: 850px), (max-device-width: 850px) {
 			img:first-of-type, img:last-of-type {
 				width: 100%;
 			}
@@ -600,7 +616,7 @@ header {
 		margin: 10px calc(30% / 6 + 10px);
 	}
 
-	@media(max-width: 850px) {
+	@media only screen and (max-width: 850px), (max-device-width: 850px) {
 		width: 100%;
 		figure {
 			width: 60%;
@@ -615,7 +631,7 @@ header {
 	width: 21%;
 	margin: 10px calc(10% / 12 + 10px);
 
-	@media(max-width: 850px) {
+	@media only screen and (max-width: 850px), (max-device-width: 850px) {
 		width: 60%;
 		float: none;
 		margin: 0 auto;
@@ -636,7 +652,7 @@ header {
 		width: 90%;
 	}
 
-	@media(max-width: 850px) {
+	@media only screen and (max-width: 850px), (max-device-width: 850px) {
 		width: 100%;
 	}
 }
@@ -662,6 +678,13 @@ footer {
 				margin-left: 0;
 				padding: 10px;
 				padding-left: 0;
+			}
+
+			@media screen and (max-device-width: 850px) {
+				li {
+					padding: 2em;
+					font-size: 1.5em;
+				}
 			}
 		} //end ul
 
