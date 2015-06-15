@@ -62,9 +62,9 @@ require_once "includes/header.inc.php";
 			</figcaption>
 		</figure>
 		<figure>
-			<img src="images/officers/jack_buckman.jpg" alt="Jack Buckman" class="full-img">
+			<img src="images/officers/jack_burkman.jpg" alt="Jack Buckman" class="full-img">
 			<figcation>
-				Jack Buckman
+				Jack Burkman
 			</figcation>
 			<figcaption>
 				Parliamentarian
